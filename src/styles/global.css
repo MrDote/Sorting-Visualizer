@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --main-color: rgb(3, 105, 161);
+    --bar-color: rgb(153, 25, 213);
+}
+
+@layer base {
+    h1 {
+        @apply text-4xl;
+    }
+    h2 {
+        @apply text-3xl;
+    }
+    h3 {
+        @apply text-2xl
+    }
+    h4 {
+        @apply text-xl
+    }
+}
